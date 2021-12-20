@@ -1,0 +1,63 @@
+div.row{
+    text-transform: uppercase;
+}
+
+div.row:hover {
+    background-color: #ddd;
+}
+
+header.workplace h2 {
+    font-family: RobotoCondensed,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #44414e;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+div.date p {
+
+    color: #44414e;
+    font-size: 13px;
+}
+
+div.link a{
+    display: block;
+    clear: left;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+    color: #00d7b9;
+}
+
+header.workplace p {
+    display: block;
+    clear: left;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+    color: #00d7b9;
+}
+
+li.row a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+div.row {
+    border-top: 1px solid #ddd;
+}
+div.row:first-child:last-child {
+    border-top: 0;
+}
+
+.img-center {margin:0 auto;}
+
+img.avatar {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+

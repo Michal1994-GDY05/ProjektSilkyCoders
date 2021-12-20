@@ -1,0 +1,65 @@
+.carousel-item {
+    height: 23rem;
+    position: relative;
+}
+
+.carousel-inner {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.d-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: right;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+/*.card{*/
+/*    padding: 50px;*/
+/*}*/
+.card-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container-fluid {
+    /*padding: 40px;*/
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    /*padding: 20px;*/
+    /*margin: 30px;*/
+}
+
+.card-title {
+    /*padding: 20px;*/
+    /*margin: 30px;*/
+}
+
+img.avatar {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+div.hover:hover {
+    background-color: #ddd;
+}
+
