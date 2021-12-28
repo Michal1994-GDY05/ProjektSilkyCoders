@@ -17,6 +17,6 @@ public class FirstPage {
     @GetMapping("/sca")
     public String lppOffert(Model model) {
         model.addAttribute("offertLpp", lppOffertService.getAllLppOffert());
-        return "sctable";
+        return "silkyCodersOfferTable";
     }
 }
